@@ -1,4 +1,4 @@
-import { COMPANY_NAME, CONTACT_EMAIL } from '@/app/lib/constants'
+import { COMPANY_NAME, CONTACT_EMAIL } from '@/lib/constants'
 import Link from 'next/link'
 
 const RightTitle = ({ children }: any) => (
