@@ -23,8 +23,8 @@ const PageHeader: React.FC = () => {
             </li>
           </ul>
         </nav>
-        <Button asChild>
-          <Link href="/find-care">Find Care</Link>
+        <Button asChild className="bg-teal-800 hover:bg-teal-700 hover:text-white">
+          <Link href="/find-care" title="Find Care">Find Care</Link>
         </Button>
       </div>
     </header>

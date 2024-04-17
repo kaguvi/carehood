@@ -99,3 +99,6 @@
   @apply text-gray-900 hover:text-gray-600
 }
 
+a {
+  @apply text-teal-900 hover:text-teal-700
+}

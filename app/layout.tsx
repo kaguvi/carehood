@@ -6,6 +6,7 @@ import { Metadata } from 'next'
 import PageHeader from '@/components/page-header'
 import { COMPANY_NAME } from '@/lib/constants'
 import PageFooter from '@/components/page-footer'
+import CookieConsent from '@/components/cookie-consent/cookie-consent'
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest"
 }
+const consentExpiryDays = parseInt(process.env.CONSENT_EXPIRY_DAYS || '2', 10)
 
 interface RootLayoutProps {
   children: React.ReactNode
@@ -54,6 +56,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <PageHeader />
         {children}
         <PageFooter />
+        <CookieConsent CONSENT_EXPIRY_DAYS={consentExpiryDays} />
       </div>
     </body>
     </html>
