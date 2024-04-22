@@ -15,7 +15,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: {
     default: `${COMPANY_NAME}`,
-    template: `%s - ${COMPANY_NAME}`
+    template: `%s | ${COMPANY_NAME}`
   },
   description: 'Care Hood - Informational resource for the domiciliary care sector',
   keywords: 'care work, domiciliary work, care regulations, software in care',

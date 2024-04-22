@@ -30,3 +30,8 @@ npx husky init
 ```
 [Husky](https://typicode.github.io/husky/) is used for pre-commit linting and type checking, and [Jest](https://jestjs.com/) for unit testing.
 
+
+## Reference sites
+- [Age UK](https://www.ageuk.org.uk/information-advice/care/arranging-care/)
+- [CQC](https://www.cqc.org.uk/about-us/transparency/using-cqc-data)
+- [Homecare Association](https://www.homecareassociation.org.uk/support/content-library-search.html)

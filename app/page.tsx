@@ -10,6 +10,7 @@ export default function Home() {
         <HomepageFeature
           title="Comprehensive Care Guides"
           description="Access detailed guides to understand domiciliary care and make informed decisions."
+          learnMoreUrl="/care-seekers"
         />
         <HomepageFeature
           description="Stay informed about the importance of compliance in domiciliary care and ensure your provider meets all necessary standards."

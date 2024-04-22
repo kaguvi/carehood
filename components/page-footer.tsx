@@ -34,8 +34,8 @@ const PageFooter: React.FC = () => {
         <div className="text-center">
           <p>&copy; {new Date().getFullYear()} {COMPANY_NAME}. All rights reserved.</p>
           <div className="mt-4 space-x-4">
-            <Link href="/privacy">Privacy Policy</Link>
-            <Link href="/terms">Terms of Use</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/terms-of-use">Terms of Use</Link>
           </div>
         </div>
       </div>

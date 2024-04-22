@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 
 const PageHeader: React.FC = () => {
   return (
-    <header className="bg-white opacity-95 fixed top-0 w-full z-10">
-      <div className="container bg-transparent mx-auto px-4 py-2 flex items-center justify-between shadow-lg rounded-lg max-w-6xl min-w-[850px]">
+    <header className="bg-transparent fixed top-0 w-full z-10">
+      <div className="bg-white opacity-95 container bg-transparent mx-auto px-4 py-2 flex items-center justify-between shadow-lg rounded-lg max-w-6xl min-w-[850px]">
         <Link href="/" className="text-2xl font-bold text-gray-800" title="Care Hood">
           <Image src="/logo-word.png" width={300} height={75} alt="Care Hood" />
         </Link>
