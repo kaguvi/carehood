@@ -1,13 +1,14 @@
 import { Metadata } from 'next'
 import SiteBreadcrumbs from '@/components/site-breadcrumbs'
+import { COMPANY_NAME } from '@/lib/constants'
 
 interface LayoutProps {
   children: React.ReactNode
 }
 export const metadata: Metadata = {
   title: {
-    default: 'Resources',
-    template: `%s - Resources`
+    default: `${COMPANY_NAME}`,
+    template: `%s | ${COMPANY_NAME}`
   },
 }
 

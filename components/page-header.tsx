@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
+import MainNav from '@/components/main-nav'
 
 const PageHeader: React.FC = () => {
   return (
@@ -10,19 +11,7 @@ const PageHeader: React.FC = () => {
         <Link href="/" className="text-2xl font-bold text-gray-800" title="Care Hood">
           <Image src="/logo-word.png" width={300} height={75} alt="Care Hood" />
         </Link>
-        <nav>
-          <ul className="main-menu flex md:space-x-16 space-x-10">
-            <li>
-              <Link href="/care-seekers">Care Seekers</Link>
-            </li>
-            <li>
-              <Link href="/resources">Resources</Link>
-            </li>
-            <li>
-              <Link href="/about">About Us</Link>
-            </li>
-          </ul>
-        </nav>
+        <MainNav />
         <Button asChild className="bg-teal-800 hover:bg-teal-700 hover:text-white">
           <Link href="/find-care" title="Find Care">Find Care</Link>
         </Button>

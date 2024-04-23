@@ -49,7 +49,7 @@ const CustomBreadcrumb = () => {
       const isLast = index === pathSegments.length - 1;
       return (
         <>
-          <Separator/>
+          <Separator key={`separator-${href}`}/>
           <BreadcrumbItem key={href}>
             {!isLast ? (
               <Link href={href}>
@@ -67,12 +67,10 @@ const CustomBreadcrumb = () => {
   return (
     <Breadcrumb className="mb-3">
       <BreadcrumbList>
-      <BreadcrumbItem>
-        <Link href="/">
-          Home
-        </Link>
-      </BreadcrumbItem>
-      {breadcrumbs}
+        <BreadcrumbItem key="home-link">
+          <Link href="/">Home</Link>
+        </BreadcrumbItem>
+        {breadcrumbs}
       </BreadcrumbList>
     </Breadcrumb>
   );
