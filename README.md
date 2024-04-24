@@ -35,3 +35,5 @@ npx husky init
 - [Age UK](https://www.ageuk.org.uk/information-advice/care/arranging-care/)
 - [CQC](https://www.cqc.org.uk/about-us/transparency/using-cqc-data)
 - [Homecare Association](https://www.homecareassociation.org.uk/support/content-library-search.html)
+- [NHS - Help at home from a paid carer](https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/homecare/)
+- [HSE - Domiciliary care provided in people's own homes](https://www.hse.gov.uk/healthservices/domiciliary-care.htm)

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import LearnMoreButton from '@/components/learn-more-button'
 
 interface HomepageFeatureProps {
   title: string;
@@ -7,15 +8,6 @@ interface HomepageFeatureProps {
   learnMoreUrl?: string;
 }
 
-const LearnMoreButton = ({url}: {url?: string}) => {
-  if (!url) return null;
-
-  return (
-    <Button asChild className="mt-5 bg-teal-800 hover:bg-teal-700 hover:text-white absolute bottom-2">
-      <Link href={url} title="Learn More">Learn More</Link>
-    </Button>
-  )
-}
 const HomepageFeature: React.FC<HomepageFeatureProps> = ({title, description, learnMoreUrl}) => {
   return (
     <div className="homepage-feature rounded-lg bg-teal-600 p-8 text-white w-1/2 relative pb-16">
