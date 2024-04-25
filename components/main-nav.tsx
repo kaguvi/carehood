@@ -35,10 +35,15 @@ const careSeekerComponents: MenuItemData[] = [
     description: ''
   },
   {
-    title: 'Understanding Domiciliary Care Services',
-    href: '/care-seekers/understanding-domiciliary-care-services',
+    title: 'Care Needs Assessment',
+    href: '/care-seekers/care-needs-assessment',
     description: ''
   },
+  {
+    title: 'Developing A Personalised Care Plan',
+    href: '/care-seekers/developing-a-personalised-care-plan',
+    description: ''
+  }
 ]
 const resourceComponents: MenuItemData[] = [
   {

@@ -28,6 +28,14 @@ const careSeekerPages = [
     title: 'Choosing a Domiciliary Care Provider',
     path: '/care-seekers/choosing-a-domiciliary-care-provider'
   },
+  {
+    title: 'Care Needs Assessment',
+    path: '/care-seekers/care-needs-assessment'
+  },
+  {
+    title: 'Developing A Personalised Care Plan',
+    path: '/care-seekers/developing-a-personalised-care-plan'
+  }
 ]
 
 
