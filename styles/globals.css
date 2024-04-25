@@ -121,3 +121,7 @@ p {
 .dark-bg {
   @apply text-white
 }
+
+main ul {
+  @apply list-disc list-outside ml-4
+}

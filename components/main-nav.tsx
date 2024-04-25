@@ -24,6 +24,21 @@ const careSeekerComponents: MenuItemData[] = [
     href: '/care-seekers/understanding-domiciliary-care',
     description: ''
   },
+  {
+    title: 'Types of Domiciliary Care Services',
+    href: '/care-seekers/types-of-domiciliary-care-services',
+    description: ''
+  },
+  {
+    title: 'Choosing a Domiciliary Care Provider',
+    href: '/care-seekers/choosing-a-domiciliary-care-provider',
+    description: ''
+  },
+  {
+    title: 'Understanding Domiciliary Care Services',
+    href: '/care-seekers/understanding-domiciliary-care-services',
+    description: ''
+  },
 ]
 const resourceComponents: MenuItemData[] = [
   {

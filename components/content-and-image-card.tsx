@@ -9,7 +9,7 @@ interface ContentAndImageCardProps {
 }
 
 const ContentAndImageCard: React.FC<ContentAndImageCardProps> = ({children, imageUrl, backgroundSide, learnMoreUrl}) => {
-  const imageBg = <div className="mt-10 rounded-2xl w-1/4" style={{backgroundImage: `url(${imageUrl})`, backgroundRepeat: "no-repeat", backgroundPositionX: "right"}} />
+  const imageBg = <div className="opacity-10 mt-10 rounded-2xl w-1/4" style={{backgroundImage: `url(${imageUrl})`, backgroundRepeat: "no-repeat", backgroundPositionX: "right"}} />
     return (
       <div className="flex gap-20 relative my-4">
         {backgroundSide == "left" && imageBg}

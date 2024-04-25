@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:ci": "jest --ci --runInBand"
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.1.4",
