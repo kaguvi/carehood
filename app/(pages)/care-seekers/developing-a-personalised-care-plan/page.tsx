@@ -36,8 +36,7 @@ const Page = async () => {
             Developing a care plan should be a collaborative process that actively involves the care recipient and their
             family whenever possible. Their input is invaluable for understanding personal preferences, lifestyle, and
             aspirations. Engaging them in the planning process helps to ensure that the care plan reflects what matters
-            most
-            to the individual and promotes their sense of autonomy and dignity.
+            most to the individual and promotes their sense of autonomy and dignity.
           </p>
         </div>
 
@@ -46,8 +45,7 @@ const Page = async () => {
           <p>
             A key aspect of care planning is setting realistic and achievable goals that are meaningful to the care
             recipient. These goals could relate to maintaining or improving health status, engaging in valued
-            activities, or
-            developing new skills. Breaking down goals into specific, measurable objectives helps to track progress and
+            activities, or developing new skills. Breaking down goals into specific, measurable objectives helps to track progress and
             adjust the care plan as needed.
           </p>
         </div>
@@ -56,13 +54,9 @@ const Page = async () => {
           <h2>Reviewing and Updating the Care Plan</h2>
           <p>
             Care needs can change over time, so it&apos;s essential to review and update the care plan regularly. This
-            could
-            be
-            done at agreed intervals (e.g., every 6 months) or whenever there is a significant change in the
-            individual&apos;s
-            condition or circumstances. Regular reviews help to ensure that the care plan remains relevant and
-            responsive to
-            the person&apos;s evolving needs.
+            could be done at agreed intervals (e.g., every 6 months) or whenever there is a significant change in the
+            individual&apos;s condition or circumstances. Regular reviews help to ensure that the care plan remains relevant and
+            responsive to the person&apos;s evolving needs.
           </p>
         </div>
 
@@ -71,10 +65,8 @@ const Page = async () => {
       <h2>Person-Centered and Promoting Independence</h2>
       <p>
         A person-centered care plan focuses on the individual&apos;s strengths, capabilities, and what they can do,
-        rather
-        than solely on their limitations or disabilities. It should aim to promote independence and enable the
-        person to
-        have as much control over their life as possible. This could involve supporting them to make choices, take
+        rather than solely on their limitations or disabilities. It should aim to promote independence and enable the
+        person to have as much control over their life as possible. This could involve supporting them to make choices, take
         reasonable risks, and engage in activities that are important to them. A person-centered approach recognizes
         that each individual is unique and deserves to be treated with compassion, dignity, and respect.
       </p>

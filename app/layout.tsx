@@ -7,6 +7,8 @@ import PageHeader from '@/components/page-header'
 import { COMPANY_NAME } from '@/lib/constants'
 import PageFooter from '@/components/page-footer'
 import CookieConsent from '@/components/cookie-consent/cookie-consent'
+import { Suspense } from 'react'
+import GoogleAnalytics from '@/components/google-analytics'
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -43,6 +45,7 @@ export const metadata: Metadata = {
   manifest: "/favicon/site.webmanifest"
 }
 const consentExpiryDays = parseInt(process.env.CONSENT_EXPIRY_DAYS || '2', 10)
+const googleAnalyticsId = process.env.GA_TAG_ID || undefined
 
 interface RootLayoutProps {
   children: React.ReactNode
@@ -51,6 +54,11 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
+    {
+      googleAnalyticsId && <Suspense>
+        <GoogleAnalytics GA_TAG_ID={googleAnalyticsId} />
+      </Suspense>
+    }
     <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
       <div className="min-w-[850px]">
         <PageHeader />

@@ -14,8 +14,7 @@ const Page = async () => {
         Domiciliary care, also known as home care, is a type of care provided to individuals in their own homes.
         It involves a wide range of services designed to support people who require assistance with daily tasks and
         personal care due to illness, disability, or old age. The primary aim of domiciliary care is to help people
-        maintain
-        their independence and quality of life while living in the comfort of their own homes.
+        maintain their independence and quality of life while living in the comfort of their own homes.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

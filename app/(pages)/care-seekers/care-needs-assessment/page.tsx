@@ -6,8 +6,7 @@ const CareNeedsAssessmentPage: React.FC = async () => {
       <h1>How Care Needs Are Assessed</h1>
       <p>
         A care needs assessment is a crucial step in determining the level and type of support you or your loved one may
-        require
-        from domiciliary care services. This assessment helps ensure that the care provided is tailored to your specific
+        require from domiciliary care services. This assessment helps ensure that the care provided is tailored to your specific
         needs and circumstances.
       </p>
 
