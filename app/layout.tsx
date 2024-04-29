@@ -30,12 +30,12 @@ export const metadata: Metadata = {
   applicationName: `${COMPANY_NAME}`,
   referrer: 'origin-when-cross-origin',
   robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
     googleBot: {
       index: true,
-      follow: false,
+      follow: true,
       noimageindex: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
