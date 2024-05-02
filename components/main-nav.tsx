@@ -52,6 +52,13 @@ const resourceComponents: MenuItemData[] = [
     description: "Resources for carers and care providers.",
   }
 ]
+const regulationsComponents: MenuItemData[] = [
+  {
+    title: "Regulations in Care",
+    href: "/regulations-in-care",
+    description: "Regulations on and around quality and safety of domiciliary care services in the United Kingdom",
+  }
+]
 
 export default function MainNav() {
   return (
@@ -59,6 +66,7 @@ export default function MainNav() {
       <NavigationMenuList>
         <MenuList menuItems={careSeekerComponents} />
         <MenuList menuItems={resourceComponents} />
+        <MenuList menuItems={regulationsComponents} />
         <NavigationMenuItem>
           <Link href="/about-us" legacyBehavior passHref title="About Us">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
