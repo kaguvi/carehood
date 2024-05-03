@@ -13,13 +13,18 @@ const Separator = () => {
   )
 }
 
+const allUpperCaseNames = ['CQC', 'UK']
+
 const CustomBreadcrumb = () => {
   const pathname = usePathname()
 
   // Create a function to create the breadcrumb name from a segment
 
   const createBreadcrumbName = (segment: string) => {
-    return segment.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    const name = segment.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    const nameParts = name.split(' ')
+    const formattedName = nameParts.map(part => allUpperCaseNames.includes(part.toUpperCase()) ? part.toUpperCase() : part)
+    return formattedName.join(' ')
   };
 
   // Split the path and filter out empty segments
@@ -36,7 +41,7 @@ const CustomBreadcrumb = () => {
         return (
           <BreadcrumbItem key={href}>
             <Link href={href}>
-              <a>{createBreadcrumbName(segment)}</a>
+              {createBreadcrumbName(segment)}
             </Link>
           </BreadcrumbItem>
         );

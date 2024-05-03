@@ -37,3 +37,11 @@ npx husky init
 - [Homecare Association](https://www.homecareassociation.org.uk/support/content-library-search.html)
 - [NHS - Help at home from a paid carer](https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/homecare/)
 - [HSE - Domiciliary care provided in people's own homes](https://www.hse.gov.uk/healthservices/domiciliary-care.htm)
+
+
+## Site ideas
+- [LeadQual](https://lqdigital.com/). See lead-qual image in docs
+- [Xivic](https://www.xivic.com/). See the background colour, the nav fixed at top, the lead section with default background, and the rest of the text with white background
+
+Youtube videos:
+- [Caregiving is real work](https://www.youtube.com/watch?v=XezfOVE9RFM)

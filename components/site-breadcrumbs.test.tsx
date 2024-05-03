@@ -34,4 +34,12 @@ describe('CustomBreadcrumb', () => {
     expect(screen.getByText('Home')).toBeInTheDocument()
     expect(screen.getByText('User')).toBeInTheDocument()
   })
+
+  it('formats uppercase names correctly', () => {
+    (usePathname as jest.Mock).mockReturnValue('/cqc-regulations/edit')
+    render(<CustomBreadcrumb />)
+    expect(screen.getByText('CQC Regulations')).toBeInTheDocument()
+    expect(screen.getByText('Edit')).toBeInTheDocument()
+  })
+
 })

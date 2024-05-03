@@ -57,6 +57,21 @@ const regulationsComponents: MenuItemData[] = [
     title: "Regulations in Care",
     href: "/regulations-in-care",
     description: "Regulations on and around quality and safety of domiciliary care services in the United Kingdom",
+  },
+  {
+    title: 'CQC Regulations For England',
+    href: '/regulations-in-care/cqc-regulations',
+    description: ''
+  },
+  {
+    title: 'Regulations For Rest Of The UK',
+    href: '/regulations-in-care/regulations-for-rest-of-uk',
+    description: ''
+  },
+  {
+    title: 'Health and Social Care Act 2008 (Regulated Activities) Regulations 2014',
+    href: '/regulations-in-care/health-and-social-care-regulations',
+    description: ''
   }
 ]
 

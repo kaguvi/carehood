@@ -22,6 +22,9 @@ const PageFooter: React.FC = () => {
                 <Link href="/care-seekers" className="hover:text-gray-300">Care Seekers</Link>
               </li>
               <li>
+                <Link href="/regulations-in-care" className="hover:text-gray-300">Regulations in Care</Link>
+              </li>
+              <li>
                 <Link href="/resources" className="hover:text-gray-300">Resources</Link>
               </li>
             </ul>

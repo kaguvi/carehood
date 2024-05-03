@@ -80,7 +80,7 @@ const DomiciliaryCareRegulationsOverview: React.FC = () => {
       <ul>
         <li>
           <Link
-            href="/cqc-regulations-england"
+            href="/regulations-in-care/cqc-regulations"
             title="Care Quality Commission (CQC) Regulations for England">
             Care Quality Commission (CQC) Regulations for England
           </Link>

@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import CareSeekersOnPageNav from '@/components/care-seekers-on-page-nav'
+import OnPageNav from '@/components/on-page-nav'
 
 interface LayoutProps {
   children: React.ReactNode
@@ -45,7 +45,7 @@ export default function CareSeekersLayout({ children }: LayoutProps) {
     <>
         <div className="flex leading-7">{children}</div>
         <div className="flex-none w-72 leading-7">
-          <CareSeekersOnPageNav careSeekerPages={careSeekerPages} />
+          <OnPageNav sectionPages={careSeekerPages} title="Care Seekers" />
         </div>
       </>
   )

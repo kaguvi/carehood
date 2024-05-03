@@ -125,3 +125,7 @@ p {
 main ul {
   @apply list-disc list-outside ml-4
 }
+
+.container p a {
+  @apply font-semibold
+}

@@ -15,7 +15,7 @@ export default function Home() {
         <HomepageFeature
           description="Stay informed about the importance of compliance in domiciliary care and ensure your provider meets all necessary standards."
           title="Navigating the Regulatory Landscape"
-          learnMoreUrl="/compliance"
+          learnMoreUrl="/regulations-in-care"
         />
       </div>
       <div className="flex justify-between space-x-4 my-4">
