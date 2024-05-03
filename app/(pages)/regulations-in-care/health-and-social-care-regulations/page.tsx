@@ -35,7 +35,7 @@ const HealthAndSocialCareActPage: React.FC = () => {
 
           <h2>Fundamental Standards of Care</h2>
           <p>
-            The fundamental standards of care are the minimum standards that all providers must meet.
+            The <a href="https://www.cqc.org.uk/about-us/fundamental-standards" title="fundamental standards of care">fundamental standards of care</a> are the minimum standards that all providers must meet.
             They cover areas such as person-centered care, dignity and respect, consent, safety, safeguarding,
             and staffing. Failure to meet these standards can result in enforcement action by the CQC.</p>
 

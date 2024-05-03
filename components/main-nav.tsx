@@ -72,6 +72,11 @@ const regulationsComponents: MenuItemData[] = [
     title: 'Health and Social Care Act 2008 (Regulated Activities) Regulations 2014',
     href: '/regulations-in-care/health-and-social-care-regulations',
     description: ''
+  },
+  {
+    title: 'Safeguarding and Protection of Vulnerable Adults (POVA)',
+    href: '/regulations-in-care/safeguarding-and-pova',
+    description: ''
   }
 ]
 

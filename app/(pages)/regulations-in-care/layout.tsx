@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import MenuItemData from '@/lib/types/MenuItemProps'
 import OnPageNav from '@/components/on-page-nav'
 
 interface LayoutProps {
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
   description: 'Regulations play a crucial role in ensuring the quality and safety of domiciliary care services in the United Kingdom. These regulations are designed to protect the well-being of service users and to maintain high standards of care delivery.',
 }
 
-const regulationsComponents: MenuItemData[] = [
+const regulationsComponents = [
   {
     title: "Regulations in Care",
     path: "/regulations-in-care",
@@ -30,6 +29,10 @@ const regulationsComponents: MenuItemData[] = [
     title: 'Health and Social Care Act 2008 (Regulated Activities) Regulations 2014',
     path: '/regulations-in-care/health-and-social-care-regulations'
   },
+  {
+    title: 'Safeguarding and Protection of Vulnerable Adults',
+    path: '/regulations-in-care/safeguarding-and-pova'
+  }
 ]
 
 
