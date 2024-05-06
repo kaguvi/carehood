@@ -37,8 +37,13 @@ npx husky init
 - [Homecare Association](https://www.homecareassociation.org.uk/support/content-library-search.html)
 - [NHS - Help at home from a paid carer](https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/homecare/)
 - [HSE - Domiciliary care provided in people's own homes](https://www.hse.gov.uk/healthservices/domiciliary-care.htm)
-
-
+- [NICE - Home care: delivering personal care and practical support to older people living in their own homes](https://www.nice.org.uk/guidance/ng21/chapter/Recommendations#ensuring-safety-and-safeguarding-people-using-home-care-services)
+- [NICE - Effective record keeping and ordering of medicines](https://www.nice.org.uk/about/nice-communities/social-care/quick-guides/effective-record-keeping-ordering-medicines)
+- [NICE - Managing medicines for adults receiving social care in the community](https://www.nice.org.uk/guidance/NG67)
+- [CQC - Regulation 12: Safe care and treatment](https://www.cqc.org.uk/guidance-providers/regulations/regulation-12-safe-care-treatment)
+- [CQC - Related Regulations](https://www.cqc.org.uk/guidance-providers/regulations-enforcement/regulations-service-providers-managers-related-guidance)
+- [CQC - Medicines management](https://www.cqc.org.uk/guidance-providers/adult-social-care/medicines-management)
+- [CQC - Medicines information for adult social care services](https://www.cqc.org.uk/guidance-providers/adult-social-care/medicines-information-adult-social-care-services)
 ## Site ideas
 - [LeadQual](https://lqdigital.com/). See lead-qual image in docs
 - [Xivic](https://www.xivic.com/). See the background colour, the nav fixed at top, the lead section with default background, and the rest of the text with white background

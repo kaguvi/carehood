@@ -77,6 +77,11 @@ const regulationsComponents: MenuItemData[] = [
     title: 'Safeguarding and Protection of Vulnerable Adults (POVA)',
     href: '/regulations-in-care/safeguarding-and-pova',
     description: ''
+  },
+  {
+    title: 'Regulations for the Management of Medication in Domiciliary Care',
+    href: '/regulations-in-care/management-of-medication',
+    description: ''
   }
 ]
 

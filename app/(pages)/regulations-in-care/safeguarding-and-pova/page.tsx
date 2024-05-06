@@ -1,5 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Safeguarding and Protection of Vulnerable Adults (POVA)',
@@ -23,7 +24,7 @@ const SafeguardingAndPOVA: React.FC = () => {
           <li>Accountability: Being transparent about safeguarding practices and outcomes</li>
         </ul>
         <p>The primary legislation governing safeguarding in England is the {' '}
-          <a href="https://www.legislation.gov.uk/ukpga/2014/23/contents" target="_blank" rel="noopener noreferrer">Care Act 2014</a>,
+          <Link href="/regulations-in-care/health-and-social-care-regulations">Health and Social Care Act</Link>,
           which sets out a clear legal framework for safeguarding adults.
           Similar legislation exists in <a href="https://www.legislation.gov.uk/asp/2007/10/contents" target="_blank" rel="noopener noreferrer">Scotland</a>,
           <a href="https://www.legislation.gov.uk/anaw/2014/4/contents" target="_blank" rel="noopener noreferrer">Wales</a>,

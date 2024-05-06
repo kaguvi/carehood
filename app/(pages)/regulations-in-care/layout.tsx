@@ -32,6 +32,10 @@ const regulationsComponents = [
   {
     title: 'Safeguarding and Protection of Vulnerable Adults',
     path: '/regulations-in-care/safeguarding-and-pova'
+  },
+  {
+    title: 'Regulations for Management of Medication in Domiciliary Care',
+    path: '/regulations-in-care/management-of-medication'
   }
 ]
 
