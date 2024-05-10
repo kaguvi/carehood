@@ -89,5 +89,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.6,
     },
+    {
+      url: `${SITE_BASE_URL}/regulations-in-care/data-protection-and-information-governance`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.6,
+    },
   ]
 }

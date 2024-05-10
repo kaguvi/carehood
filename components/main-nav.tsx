@@ -79,8 +79,13 @@ const regulationsComponents: MenuItemData[] = [
     description: ''
   },
   {
-    title: 'Regulations for the Management of Medication in Domiciliary Care',
+    title: 'Regulations for the Management of Medication',
     href: '/regulations-in-care/management-of-medication',
+    description: ''
+  },
+  {
+    title: 'Data Protection and Information Governance',
+    href: '/regulations-in-care/data-protection-and-information-governance',
     description: ''
   }
 ]

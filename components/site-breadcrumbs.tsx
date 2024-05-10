@@ -39,7 +39,7 @@ const CustomBreadcrumb = () => {
       ...lastTwoSegments.map((segment, index) => {
         const href = '/' + pathSegments.slice(0, pathSegments.length - 2 + index + 1).join('/');
         return (
-          <BreadcrumbItem key={href}>
+          <BreadcrumbItem key={`breadcrumb-${href}`}>
             <Link href={href}>
               {createBreadcrumbName(segment)}
             </Link>

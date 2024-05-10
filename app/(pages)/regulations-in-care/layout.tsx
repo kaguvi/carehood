@@ -34,8 +34,12 @@ const regulationsComponents = [
     path: '/regulations-in-care/safeguarding-and-pova'
   },
   {
-    title: 'Regulations for Management of Medication in Domiciliary Care',
+    title: 'Regulations for Management of Medication',
     path: '/regulations-in-care/management-of-medication'
+  },
+  {
+    title: 'Data Protection and Information Governance',
+    path: '/regulations-in-care/data-protection-and-information-governance'
   }
 ]
 
