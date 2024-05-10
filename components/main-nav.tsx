@@ -87,6 +87,11 @@ const regulationsComponents: MenuItemData[] = [
     title: 'Data Protection and Information Governance',
     href: '/regulations-in-care/data-protection-and-information-governance',
     description: ''
+  },
+  {
+    title: 'Employment Law and Regulations',
+    href: '/regulations-in-care/employment-law',
+    description: ''
   }
 ]
 

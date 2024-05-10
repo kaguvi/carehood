@@ -40,6 +40,10 @@ const regulationsComponents = [
   {
     title: 'Data Protection and Information Governance',
     path: '/regulations-in-care/data-protection-and-information-governance'
+  },
+  {
+    title: 'Employment Law and Regulations',
+    path: '/regulations-in-care/employment-law'
   }
 ]
 
