@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 import LearnMoreButton from '@/components/learn-more-button'
 
 interface HomepageFeatureProps {

@@ -95,6 +95,14 @@ const regulationsComponents: MenuItemData[] = [
   }
 ]
 
+const technologyInCareComponents: MenuItemData[] = [
+  {
+    title: "Technology",
+    href: "/technology-in-home-care",
+    description: "Technology in home care",
+  },
+]
+
 export default function MainNav() {
   return (
     <NavigationMenu>
@@ -102,6 +110,7 @@ export default function MainNav() {
         <MenuList menuItems={careSeekerComponents} />
         <MenuList menuItems={resourceComponents} />
         <MenuList menuItems={regulationsComponents} />
+        <MenuList menuItems={technologyInCareComponents} />
         <NavigationMenuItem>
           <Link href="/about-us" legacyBehavior passHref title="About Us">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>

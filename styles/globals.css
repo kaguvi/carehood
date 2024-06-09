@@ -129,3 +129,7 @@ main ul {
 .container p a {
   @apply font-semibold
 }
+
+.sectionpage-feature {
+  @apply relative
+}

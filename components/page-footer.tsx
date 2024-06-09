@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const PageFooter: React.FC = () => {
   return (
-    <footer className="footer bg-teal-50 py-8">
+    <footer className="footer bg-teal-200 py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="flex-none w-72 mb-8 md:mb-0">

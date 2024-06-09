@@ -44,6 +44,11 @@ npx husky init
 - [CQC - Related Regulations](https://www.cqc.org.uk/guidance-providers/regulations-enforcement/regulations-service-providers-managers-related-guidance)
 - [CQC - Medicines management](https://www.cqc.org.uk/guidance-providers/adult-social-care/medicines-management)
 - [CQC - Medicines information for adult social care services](https://www.cqc.org.uk/guidance-providers/adult-social-care/medicines-information-adult-social-care-services)
+
+- [CQC Syndication API](https://api-portal.service.cqc.org.uk/api-details#api=syndication&operation=get-changes-within-timeframe)
+- ![User manual for API](./docs/cqc/UserInstruction_SydnicationAuthentication.odt)
+
+
 ## Site ideas
 - [LeadQual](https://lqdigital.com/). See lead-qual image in docs
 - [Xivic](https://www.xivic.com/). See the background colour, the nav fixed at top, the lead section with default background, and the rest of the text with white background
