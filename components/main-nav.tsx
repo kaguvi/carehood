@@ -101,6 +101,21 @@ const technologyInCareComponents: MenuItemData[] = [
     href: "/technology-in-home-care",
     description: "Technology in home care",
   },
+  {
+    title: 'Mobile Apps And Wearables',
+    href: '/technology-in-home-care/mobile-apps-and-wearables',
+    description: 'Mobile Apps And Wearables'
+  },
+  {
+    title: 'Electronic Care Planning',
+    href: '/technology-in-home-care/electronic-care-planning',
+    description: 'Electronic Care Planning And Record Keeping'
+  },
+  {
+    title: 'Assistive Technology And Smart Home Solutions',
+    href: '/technology-in-home-care/assistive-technology-and-smart-homes',
+    description: 'Assistive Technology And Smart Home Solutions'
+  }
 ]
 
 export default function MainNav() {

@@ -15,6 +15,18 @@ const technologyInHomeCarePages = [
   {
     title: 'Technology In Home Care',
     path: '/technology-in-home-care'
+  },
+  {
+    title: 'Mobile Apps And Wearables',
+    path: '/technology-in-home-care/mobile-apps-and-wearables'
+  },
+  {
+    title: 'Electronic Care Planning',
+    path: '/technology-in-home-care/electronic-care-planning'
+  },
+  {
+    title: 'Assistive Technology And Smart Home Solutions',
+    path: '/technology-in-home-care/assistive-technology-and-smart-homes'
   }
 ]
 

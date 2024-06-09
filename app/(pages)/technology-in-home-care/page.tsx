@@ -15,18 +15,10 @@ const TechnologyInCare = () => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <SectionpageFeature 
-            title='Telehealth and Remote Monitoring'
-            description='Telehealth and telemedicine involve the use of digital communication tools to provide remote healthcare services. They offer benefits like increased accessibility, reduced travel time, and timely medical consultations.'
-            learnMoreUrl='/technology-in-care/telehealth-remote-monitoring'
-            backgroundColor='bg-teal-50'
-            textColor='text-gray-800'
-        />
-
         <SectionpageFeature
-            title='Mobile Health Apps and Wearables'
+            title='Mobile Apps and Wearables'
             description='Wearable devices include fitness trackers, smartwatches, and medical alert systems that monitor health metrics like heart rate, activity levels, and emergency situations.'
-            learnMoreUrl='/technology-in-care/mobile-health-apps-wearables'
+            learnMoreUrl='/technology-in-home-care/mobile-apps-and-wearables'
             backgroundColor='bg-teal-50'
             textColor='text-gray-800'
         />
@@ -34,7 +26,7 @@ const TechnologyInCare = () => {
         <SectionpageFeature
             title='Assistive Technology and Smart Home Solutions'
             description='Smart home technologies like automated lighting, temperature control, and security systems enhance the living environment for patients. Devices such as smart pill dispensers and voice-activated assistants help patients manage their daily routines and medication schedules.'
-            learnMoreUrl='/technology-in-care/assistive-technology-smart-home-solutions'
+            learnMoreUrl='/technology-in-home-care/assistive-technology-and-smart-homes'
             backgroundColor='bg-teal-50'
             textColor='text-gray-800'
         />
@@ -42,7 +34,7 @@ const TechnologyInCare = () => {
         <SectionpageFeature
             title='Electronic Care Planning and Record Keeping'
             description='Learn about the benefits of electronic care planning and record keeping software in improving the efficiency, accuracy, and security of care delivery.'
-            learnMoreUrl='/technology-in-care/electronic-care-planning-record-keeping'
+            learnMoreUrl='/technology-in-home-care/electronic-care-planning'
             backgroundColor='bg-teal-50'
             textColor='text-gray-800'
         />

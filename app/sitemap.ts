@@ -101,5 +101,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.6,
     },
+    {
+      url: `${SITE_BASE_URL}/technology-in-home-care`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_BASE_URL}/technology-in-home-care/mobile-apps-and-wearables`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.6,
+    },
+    {
+      url: `${SITE_BASE_URL}/technology-in-home-care/electronic-care-planning`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.6,
+    },
+    {
+      url: `${SITE_BASE_URL}/technology-in-home-care/assistive-technology-and-smart-homes`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.6,
+    },
   ]
 }
